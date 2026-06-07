@@ -32,4 +32,4 @@ print("Clusters:", model.n_clusters)
 print("Silhouette Score:", score)
 
 # Save updated model
-joblib.dump(model, "iriskmeansml.pkl")
+joblib.dump(model, "model.pkl")
